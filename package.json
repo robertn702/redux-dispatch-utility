@@ -1,0 +1,22 @@
+{
+  "name": "redux-dispatch-utility",
+  "version": "0.0.1",
+  "description": "dispatch utility for redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "compile": "babel --presets es2017,stage-0 -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "keywords": [
+    "redux",
+    "dispatch"
+  ],
+  "author": "Robert Niimi <robertn702@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2017": "^6.14.0",
+    "babel-preset-stage-0": "^6.5.0"
+  }
+}
