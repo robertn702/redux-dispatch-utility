@@ -16,7 +16,7 @@ export default (type, dispatch, addObj) => {
       disp(SUCCESS, response);
     },
     fail(response) {
-      disp(response, response);
+      disp(FAIL, response);
     }
   };
 }
